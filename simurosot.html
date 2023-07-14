@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tutorial Page</title>
+
+        <!-- custom css file link-->
+        <link rel="stylesheet" href="assets/css/tutorial.css">
+    </head>
+
+    <body>
+        <section id="blog-container">
+            <div class="blogs blogpost">
+                <div class="post">
+                    <img src="assets/img/simurosot" alt="">
+                    <h3>Learn about Autonomouns Car Driving (Simurosot)</h3>
+                    <div class="part">
+                        <p>Simurosot is a new categories to Fira Malaysia in 2022. 
+                            This one has two Categories, namely Autonomous Car Challenge and Drone Simulation Challenge. 
+                            In this tutorial will be mentioned Autonomous Car Challenge, if you want to know more, 
+                            you can click the button below.
+                        </p>
+                        <div class="link">
+                            <a href="https://firamalaysia.mypolycc.edu.my/index.php/category-rule2/simurosot" target="_blank">Simurosot Rule</a>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div class="part">
+                        <h4 class="title">1. Environment Setup (Operating System)</h4>
+                        <br>
+                        <img src="assets/img/ubuntu 20.04.jpg.png" alt="" class="">
+                        <br>
+                        <p>Environment: Ubuntu 20.04 <br><br>
+                            You have 2 way to install Ubuntu on your laptop or desktop<br>
+                            1. Double Operating System (recommend)<br>
+                            2. Use Virtual Box (not recommend)<br><br>
+                            Step 1: <br>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/-iSAyiicyQY" title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                            <br><br>
+                            Step 2:
+                        </p>
+                        <div class="link">
+                            <a href="https://releases.ubuntu.com/20.04/" target="_blank">Download Ubuntu 20.04.iso file for Virtual Box</a>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="part">
+                        <h4 class="title">2. Environment Setup (Simulator)</h4>
+                        <img src="assets/img/simulator.png" alt="" class="">
+                        <br>
+                        <p>Environment: Fira-Autonomous-Car-Simulator<br><br>
+                            Minimum Required:<br> 
+                            -CPU: Intel® Core™ i5-5257U CPU @ 2.70GHz<br>
+                            -GPU: Intel® Iris 6100<br>
+                            -RAM: 8 GB<br><br>
+                            You may follow the step to install this simulator to your ubuntu 20.04.
+                        </p>
+                        <div class="link">
+                            <a href="http://wiki.ros.org/noetic/Installation/Ubuntu" target="_blank">1. Setup Ros Noetic</a>
+                            <a href="https://github.com/Fira-Autonomous-Cars/FIRA-Autonomous-Cars-Simulator" target="_blank">2. Setup Simulator</a>
+                        </div>
+                        <br>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZA7u2XPmnlo" title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <br><br>
+
+                    <div class="part">
+                        <h4 class="title">3. Start Environment</h4>
+                        <br>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/jSUKxxxV6ks" title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                        <br>
+                        <p>Everytime to start the simulator, must to setup bash first use this command:</p>
+                        <span class="code">source ~/catkin_ws/devel/setup.bash</span>
+                        <br><br><br>
+                        <p>Next, you may launch different environement use code below,<br>
+                            For Track Race Environment:
+                        </p>
+                        <span class="code">roslaunch avisengine_environment track_race_simple.launch</span>
+                        <br><br>
+                        <p>For Urban Race Environment:</p>
+                        <span class="code">roslaunch avisengine_environment track_urban_simple.launch</span>
+                        <br><br>
+                        
+                        <br>
+                        
+                    </div>
+                    <br><br><br>
+                    
+                    <a href="tutorial.html">Read Next ?</a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
